@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+body { color: #0f172a; }
+
+* { scrollbar-width: thin; scrollbar-color: rgba(15,23,42,0.18) transparent; }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: rgba(15,23,42,0.14); border-radius: 999px; }
