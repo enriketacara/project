@@ -66,7 +66,7 @@ Password for all: `Password123!`
 - `POST /api/v1/jobs/{job}/complete`
 - `GET  /api/v1/my/jobs`
 
-## Notes for presentation
+## Notes 
 - Dates are stored in DB in UTC (`scheduled_at_utc`, `completed_at_utc`), but responses also include `*_local` based on the authenticated inspector timezone.
 - Double claim is prevented by:
   - DB unique constraint on `job_assignments.job_id`
@@ -108,9 +108,9 @@ Add the middleware alias in **bootstrap/app.php**:
 - `POST /api/v1/admin/jobs`
 - `PATCH /api/v1/admin/jobs/{job}`
 - `DELETE /api/v1/admin/jobs/{job}`  (archive)
-## Deployment (Self-Hosted, No Docker)
+## Deployment (Self-Hosted)
 
-This project is **self-hosted by me** on my own server (Proxmox CT/VM) and deployed **without Docker**.
+This project is **self-hosted by me** on my own server (Proxmox CT/VM) and deployed
 It runs directly on **Alpine Linux** using **Nginx + PHP-FPM** for the Laravel API, and **PostgreSQL** as database.
 The React frontend is built locally and served as static files by Nginx.
 
