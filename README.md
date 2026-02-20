@@ -1,5 +1,30 @@
 # OUR COMPANY Inspector Scheduler - Laravel 11 (API) + Postgres + Swagger
 
+### Admin demo user
+Password: `Password123!`
+- `admin@company.test` (role=ADMIN)
+  
+## Demo users (seeded)
+Password for all: `Password123!`
+- `uk.inspector@company.test` (UK / Europe/London)
+- `mx.inspector@company.test` (MEXICO / America/Mexico_City)
+- `in.inspector@company.test` (INDIA / Asia/Kolkata)
+  
+Admin Dashboard
+<img width="1656" height="815" alt="image" src="https://github.com/user-attachments/assets/17a68b1b-56d5-43ac-8315-eb3d10e16edc" />
+<img width="1647" height="718" alt="image" src="https://github.com/user-attachments/assets/10013736-3be6-4528-bec0-841858b82483" />
+<img width="1652" height="808" alt="image" src="https://github.com/user-attachments/assets/ceff7f33-6eb2-4b57-bdf5-639e40feaee2" />
+<img width="1650" height="825" alt="image" src="https://github.com/user-attachments/assets/0dfa41ca-faea-4e13-b9aa-80b3c1aa8bfc" />
+<img width="1644" height="992" alt="image" src="https://github.com/user-attachments/assets/200c65f3-c402-4843-b831-29cab2ef812a" />
+<img width="1652" height="1053" alt="image" src="https://github.com/user-attachments/assets/30568550-c254-43cb-ad5a-f86e818429b1" />
+<img width="1647" height="705" alt="image" src="https://github.com/user-attachments/assets/106d681d-3cba-4615-9695-4c06a3386b6a" />
+<img width="1653" height="904" alt="image" src="https://github.com/user-attachments/assets/9e4432dd-d8f3-496b-9304-e17b2ccf80ca" />
+User Dashboard
+<img width="1648" height="679" alt="image" src="https://github.com/user-attachments/assets/719354ea-65b7-465d-ad7f-8f750ce29bc9" />
+<img width="1648" height="730" alt="image" src="https://github.com/user-attachments/assets/9b227387-3257-4e4b-bf05-89947c439471" />
+<img width="1649" height="946" alt="image" src="https://github.com/user-attachments/assets/81d581d3-ed47-40b7-9c37-67d6d001247e" />
+<img width="1646" height="1030" alt="image" src="https://github.com/user-attachments/assets/7da564d5-aa9e-4c08-935c-5d59391a361c" />
+<img width="1647" height="823" alt="image" src="https://github.com/user-attachments/assets/5335b44c-8012-4e76-9134-80dcb39c1988" />
 This is a **template/overlay** meant to be copied into a fresh Laravel 11 project.
 It includes: **thin controllers**, **service layer**, **FormRequests**, **API Resources**, **status workflow**, **timezone handling (UK/Mexico/India)**, **concurrency-safe claim**, and **Swagger UI**.
 
@@ -52,11 +77,6 @@ php artisan serve
 8) Swagger UI:
 - Open: `http://127.0.0.1:8000/api/documentation`
 
-## Demo users (seeded)
-Password for all: `Password123!`
-- `uk.inspector@company.test` (UK / Europe/London)
-- `mx.inspector@company.test` (MEXICO / America/Mexico_City)
-- `in.inspector@company.test` (INDIA / Asia/Kolkata)
 
 ## Key endpoints
 - `POST /api/v1/auth/login`
@@ -81,9 +101,7 @@ This overlay now includes an **Admin area** with:
 - Dashboard metrics (pipeline + inspectors by location)
 - Inspector job history
 
-### Admin demo user
-Password: `Password123!`
-- `admin@company.test` (role=ADMIN)
+
 
 ### Middleware alias required (Laravel 11)
 
@@ -164,19 +182,4 @@ Run:
 npm run dev
 ```
 
-Admin Dashboard
-<img width="1656" height="815" alt="image" src="https://github.com/user-attachments/assets/17a68b1b-56d5-43ac-8315-eb3d10e16edc" />
-<img width="1647" height="718" alt="image" src="https://github.com/user-attachments/assets/10013736-3be6-4528-bec0-841858b82483" />
-<img width="1652" height="808" alt="image" src="https://github.com/user-attachments/assets/ceff7f33-6eb2-4b57-bdf5-639e40feaee2" />
-<img width="1650" height="825" alt="image" src="https://github.com/user-attachments/assets/0dfa41ca-faea-4e13-b9aa-80b3c1aa8bfc" />
-<img width="1644" height="992" alt="image" src="https://github.com/user-attachments/assets/200c65f3-c402-4843-b831-29cab2ef812a" />
-<img width="1652" height="1053" alt="image" src="https://github.com/user-attachments/assets/30568550-c254-43cb-ad5a-f86e818429b1" />
-<img width="1647" height="705" alt="image" src="https://github.com/user-attachments/assets/106d681d-3cba-4615-9695-4c06a3386b6a" />
-<img width="1653" height="904" alt="image" src="https://github.com/user-attachments/assets/9e4432dd-d8f3-496b-9304-e17b2ccf80ca" />
-User Dashboard
-<img width="1648" height="679" alt="image" src="https://github.com/user-attachments/assets/719354ea-65b7-465d-ad7f-8f750ce29bc9" />
-<img width="1648" height="730" alt="image" src="https://github.com/user-attachments/assets/9b227387-3257-4e4b-bf05-89947c439471" />
-<img width="1649" height="946" alt="image" src="https://github.com/user-attachments/assets/81d581d3-ed47-40b7-9c37-67d6d001247e" />
-<img width="1646" height="1030" alt="image" src="https://github.com/user-attachments/assets/7da564d5-aa9e-4c08-935c-5d59391a361c" />
-<img width="1647" height="823" alt="image" src="https://github.com/user-attachments/assets/5335b44c-8012-4e76-9134-80dcb39c1988" />
 
