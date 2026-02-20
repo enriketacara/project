@@ -163,13 +163,13 @@ Run:
 ```bash
 npm run dev
 ```
-amind
+
 Admin Dashboard
 <img width="1656" height="815" alt="image" src="https://github.com/user-attachments/assets/17a68b1b-56d5-43ac-8315-eb3d10e16edc" />
 <img width="1647" height="718" alt="image" src="https://github.com/user-attachments/assets/10013736-3be6-4528-bec0-841858b82483" />
 <img width="1652" height="808" alt="image" src="https://github.com/user-attachments/assets/ceff7f33-6eb2-4b57-bdf5-639e40feaee2" />
 <img width="1650" height="825" alt="image" src="https://github.com/user-attachments/assets/0dfa41ca-faea-4e13-b9aa-80b3c1aa8bfc" />
-<img width="1650" height="1112" alt="image" src="https://github.com/user-attachments/assets/3ab7c16f-fb83-4148-884f-ba37ba8b9bd4" />
+<img width="1644" height="992" alt="image" src="https://github.com/user-attachments/assets/200c65f3-c402-4843-b831-29cab2ef812a" />
 <img width="1652" height="1053" alt="image" src="https://github.com/user-attachments/assets/30568550-c254-43cb-ad5a-f86e818429b1" />
 <img width="1647" height="705" alt="image" src="https://github.com/user-attachments/assets/106d681d-3cba-4615-9695-4c06a3386b6a" />
 <img width="1653" height="904" alt="image" src="https://github.com/user-attachments/assets/9e4432dd-d8f3-496b-9304-e17b2ccf80ca" />
