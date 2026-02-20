@@ -108,7 +108,47 @@ Add the middleware alias in **bootstrap/app.php**:
 - `POST /api/v1/admin/jobs`
 - `PATCH /api/v1/admin/jobs/{job}`
 - `DELETE /api/v1/admin/jobs/{job}`  (archive)
+## Deployment (Self-Hosted, No Docker)
 
+This project is **self-hosted by me** on my own server (Proxmox CT/VM) and deployed **without Docker**.
+It runs directly on **Alpine Linux** using **Nginx + PHP-FPM** for the Laravel API, and **PostgreSQL** as database.
+The React frontend is built locally and served as static files by Nginx.
+
+---
+
+## Server Stack
+- **OS:** Alpine Linux
+- **Web server / Reverse proxy:** Nginx
+- **Backend:** Laravel 11 (PHP 8.x) via PHP-FPM
+- **Database:** PostgreSQL
+- **Frontend:** React (Vite) + Tailwind (Glass UI) + SweetAlert2
+- **Auth:** Laravel Sanctum (Bearer token)
+- **API Docs:** Swagger (L5-Swagger)
+
+---
+
+## Directory Structure on Server
+Example:
+- `/var/project/backend`  → Laravel API
+- `/var/project/frontend/dist` → React build output served by Nginx
+
+---
+
+## Backend Setup (Laravel)
+
+### 1) Configure `.env`
+Inside `/var/project/backend/.env` set:
+```env
+APP_ENV=production
+APP_DEBUG=false
+APP_URL=https://YOUR_DOMAIN
+
+DB_CONNECTION=pgsql
+DB_HOST=127.0.0.1
+DB_PORT=5432
+DB_DATABASE=YOUR_DB
+DB_USERNAME=YOUR_USER
+DB_PASSWORD=YOUR_PASS
 - # Inspector Scheduler Frontend — Glass Light (Pastel)
 
 ## Setup
