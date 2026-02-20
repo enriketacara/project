@@ -1,7 +1,9 @@
-# OUR COMPANY Inspector Scheduler - Laravel 11 (API) + Postgres + Swagger
+# 🏢 OUR COMPANY Inspector Scheduler
+
+## 🚀 Laravel 11 API · ⚛️ React · 🐘 PostgreSQL
 
 ### Admin demo user
-Domain:https://jobinspection.ecaradev.com/
+  https://jobinspection.ecaradev.com/
 - `Password: Password123!`
 - `admin@company.test` (role=ADMIN)
   
