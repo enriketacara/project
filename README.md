@@ -2,7 +2,7 @@
 
 ### Admin demo user
 Domain:https://jobinspection.ecaradev.com/
-- Password: `Password123!`
+- `Password: Password123!`
 - `admin@company.test` (role=ADMIN)
   
 ## Demo users (seeded)
