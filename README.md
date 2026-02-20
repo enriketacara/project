@@ -108,3 +108,19 @@ Add the middleware alias in **bootstrap/app.php**:
 - `POST /api/v1/admin/jobs`
 - `PATCH /api/v1/admin/jobs/{job}`
 - `DELETE /api/v1/admin/jobs/{job}`  (archive)
+
+- # Inspector Scheduler Frontend — Glass Light (Pastel)
+
+## Setup
+```bash
+npm install
+```
+Create `.env` in project root:
+```env
+VITE_API_BASE_URL=http://127.0.0.1:8000
+```
+Run:
+```bash
+npm run dev
+```
+
