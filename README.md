@@ -12,7 +12,7 @@ Password for all: `Password123!`
 - `uk.inspector@company.test` (UK / Europe/London)
 - `mx.inspector@company.test` (MEXICO / America/Mexico_City)
 - `in.inspector@company.test` (INDIA / Asia/Kolkata)
-  Swagger : https://backend.ecaradev.com/api/documentation
+ - ` Swagger : https://backend.ecaradev.com/api/documentation`
 Admin Dashboard
 <img width="1656" height="815" alt="image" src="https://github.com/user-attachments/assets/17a68b1b-56d5-43ac-8315-eb3d10e16edc" />
 <img width="1647" height="718" alt="image" src="https://github.com/user-attachments/assets/10013736-3be6-4528-bec0-841858b82483" />
